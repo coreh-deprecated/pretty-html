@@ -57,9 +57,9 @@ Pretty.prototype.html = function() {
       }
 
       line += '</span>';
-
-      line += htmlafternode(node, self.range);
     }
+
+    line += htmlafternode(node, self.range);
 
     lines.push(line);
   });
